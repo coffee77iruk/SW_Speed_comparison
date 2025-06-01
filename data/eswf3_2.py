@@ -8,8 +8,8 @@ import pandas as pd
 
 
 # file path
-eswf_file_path = 'E:/Research/SWspeed/eswf_data/eswfv3_2.csv'
-CR_file_path = "E:/Research/SWspeed/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
+eswf_file_path = "E:/research/SW_Speed_Models_Comparison/data/eswf_data/eswfv3_2.csv"
+CR_file_path = "E:/research/SW_Speed_Models_Comparison/data/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
 CR_df = pd.read_csv(CR_file_path)
 eswf3_2_df = pd.read_csv(eswf_file_path, parse_dates=[0])
 

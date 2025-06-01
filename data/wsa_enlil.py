@@ -11,8 +11,8 @@ from collections import defaultdict
 
 
 # file path
-enlil_file_path = 'E:/Research/SWspeed/wsa_enlil_data/'
-CR_file_path = "E:/Research/SWspeed/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
+enlil_file_path = "E:/research/SW_Speed_Models_Comparison/data/wsa_enlil_data/"
+CR_file_path = "E:/research/SW_Speed_Models_Comparison/data/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
 CR_df = pd.read_csv(CR_file_path)
 
 def WSA_Enlil1(cr):

@@ -8,9 +8,9 @@ import pandas as pd
 
 
 # file path
-dlmodel_data_file_path = "E:/Research/SWspeed/model_result/model_prediction.npy"
-dlmodel_time_file_path = "E:/Research/SWspeed/model_result/target_time.npy"
-CR_file_path = 'E:/Research/SWspeed/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv'
+dlmodel_data_file_path = "E:/research/SW_Speed_Models_Comparison/data/model_result/model_prediction.npy"
+dlmodel_time_file_path = "E:/research/SW_Speed_Models_Comparison/data/model_result/target_time.npy"
+CR_file_path = "E:/research/SW_Speed_Models_Comparison/data/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
 
 # read file
 model_prediction = np.load(dlmodel_data_file_path)

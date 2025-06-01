@@ -14,8 +14,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # file path
-omni_file_path = "E:/Research/SWspeed/omni_data/omni2_data.txt"
-CR_file_path = 'E:/Research/SWspeed/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv'
+omni_file_path = "E:/research/SW_Speed_Models_Comparison/data/omni_data/omni2_data.txt"
+CR_file_path = "E:/research/SW_Speed_Models_Comparison/data/Carrington_Rotation_Data__Oct-Dec__2010-2020_.csv"
 
 # read file
 with open(omni_file_path, 'r') as file:
